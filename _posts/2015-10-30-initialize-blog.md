@@ -2,10 +2,10 @@
 layout: post
 title: Initialize Blog
 description: "A brief intro about this blog, myself, and why we're here."
-tags: [about][intro]
+tags: [about, intro]
 ---
 
-# Why is this blog here?
+## Why is this blog here?
 
 I'm writing this to keep a record of the things I learn on my journey through life. More specifically, this blog is being started now because I am attending the Ruby on Rails course at The Iron Yard in Durham, NC. For those that are unfamiliar, The Iron Yard is a code bootcamp that offers 12 week intensive courses that takes students of any skill level and turns them into job-ready junior developers. This site will contain my experiences, thoughts, lessons, and frustrations.
 
