@@ -1,6 +1,6 @@
 title:            Code Zen
 description:      Ramblings of a dev-in-training who doesn't get enough sleep.
-disqus_shortname: cz
+disqus_shortname: codezenblog
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -10,11 +10,11 @@ url:
 # Owner/author information
 owner:
   name:           Tyler Rockwell
-  avatar:         avatar.jpg
+  avatar:         selfie.jpg
   bio:            "Developer, student, entrepreneur, and husband."
   email:          tyler.rockwell87@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
+  twitter: @TylerARockwell
   facebook:
   github: "TylerRockwell"
   stackexchange:
