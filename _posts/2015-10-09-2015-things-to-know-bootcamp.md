@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 6 Things You Should Know Before Joining a Code Boot Camp
+title: 6 Things You Should Know <br> Before Joining a Code Boot Camp
 description: "A brief intro about this blog, myself, and why we're here."
 tags: [iron yard, code, bootcamp]
 ---
