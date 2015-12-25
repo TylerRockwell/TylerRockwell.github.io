@@ -27,3 +27,17 @@ sitemap: false
 @import "animations";
 @import "dl-menu";
 @import "page";
+
+.center-image{
+  margin: 0 auto;
+  display: block;
+}
+
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        color: #333;
+        margin-top: 1%;
+    }
+}
