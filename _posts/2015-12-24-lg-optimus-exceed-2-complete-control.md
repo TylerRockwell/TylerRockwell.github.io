@@ -31,7 +31,7 @@ TowelRoot is incredibly simple to use as long as you have the correct version of
 
 ![The Easy Version]({{ site.url }}/images/exceed-tutorials/lg-pp1-software.png){: .center-image}
 
-If it says VS450PP2, you will need to flash the phone to version 1 before TowelRoot will work. Instructions here.
+If it says VS450PP2, you will need to [flash the phone]({% post_url 2015-12-24-lg-optimus-exceed-2-rom-flash %}) to version 1 before TowelRoot will work.
 
 Once you've confirmed the software version, there's one more preparation step before installing. You need to enable the installation of apps from unknown sources. To do this, go to Menu -> Settings -> Security -> Unknown Sources. Make sure this box is checked, read the warning (or not), and tap OK.
 
@@ -49,6 +49,6 @@ Go ahead and click make it ra1n. You should get the message informing you that y
 
 Congratulations, you have root! There's only one more step to control which apps have root access. If the phone reboots, just run the app and try again. 2 of my phones failed and restarted, but everything went smoothly when I tried again. Technology, amiright?
 
-If it says your phone is not currently supported, then you likely have the version 2 software I mentioned above. Follow the instructions to flash the older version then retry the steps in this section.
+If it says your phone is not currently supported, then you likely have the version 2 software I mentioned above. Follow the instructions to [flash the older version]({% post_url 2015-12-24-lg-optimus-exceed-2-rom-flash %}) then retry the steps in this section.
 
 Finally, you need an app to manage root privileges for other apps. Go ahead to the Play Store and download SuperSU. Install it and update the binary if necessary. The app may ask you to reboot. That's it. Your phone is fully rooted. Hurray!

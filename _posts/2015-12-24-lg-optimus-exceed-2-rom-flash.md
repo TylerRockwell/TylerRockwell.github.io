@@ -51,8 +51,8 @@ Once everything is good, click on CSE Flash. Normal flash does not wipe the phon
 
 On the next screen, click start. Don't click on anything else. Just Start. A Select Country & Language window will appear. Just click OK. I know it has information about Korea filled in. Don't worry about any of it. The app will default to doing everything in English.
 
-Finally, the LG Mobile Support Tool will appear. It may warn you about not being able to connect to the server. Just click OK and keep an eye on your phone. You will see the progress bar fill as the software installs. The phone will automatically restart once the install finishes. With any luck, it will boot back to the Verizon setup wizard. The phone will reboot once more after being at this screen for a few seconds. When it's done booting again, feel free to bypass the screen using the super secret combination.
+Finally, the LG Mobile Support Tool will appear. It may warn you about not being able to connect to the server. Just click OK and keep an eye on your phone. You will see the progress bar fill as the software installs. The phone will automatically restart once the install finishes. With any luck, it will boot back to the Verizon setup wizard. The phone will reboot once more after being at this screen for a few seconds. When it's done booting again, feel free to bypass the screen using the [super secret combination]({% post_url 2015-12-24-lg-optimus-exceed-2-complete-control %}).
 
-Go ahead and check your software version. It should now read VS450PP1. Congrats, you did it! The phone is now ready to be rooted.
+Go ahead and check your software version. It should now read VS450PP1. Congrats, you did it! The phone is now ready to be [rooted]({% post_url 2015-12-24-lg-optimus-exceed-2-complete-control %}).
 
 ![Verizon Setup Wizard]({{ site.url }}/images/exceed-tutorials/flash-after.png){: .center-image}
