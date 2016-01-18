@@ -23,7 +23,7 @@ Today is day 3 of my Smashing Boxes adventure. Day 1 was orientation,
 meeting with the teams, awesome lunch at Dashi, overall just getting situated.
 Yesterday was when I first started doing *work*. My first project is to build
 a Twitter clone. What makes this more challenging for me is that I must use
-Devise for authentication and rSpec for testing. I'm getting a handle on rspec.
+Devise for authentication and rspec for testing. I'm getting a handle on rspec.
 It's pretty straight forward, it's just a matter of learning the syntax differences
 between it and minitest. I spent a lot of time looking over the Devise docs. It's
 easy enough to generate a user model and get a working authentication system in,
@@ -48,3 +48,27 @@ I expect to continue gaining experience with rspec and Devise. I'm working on my
 ability to not just produce working code now, but code that is good as well.
 
 tl;dr It's 2 sentences. Just read it.
+
+
+## January 18, 2016
+
+### What did you learn yesterday?
+
+I've gotten a bit more comfortable with Devise and how to modify its generated
+structures. I'm gettting familiar with rspec syntax.
+
+### What are you going to do today?
+
+This morning I started working with Cucumber. Annie showed me how to write
+integration tests with it, and it's already much better than minitest. I'm going
+to work on getting my pull requests merged into master and I should finally get
+started on the follower functionality. I will also add more integration tests to
+make sure that everything I've written thus far continues to work.
+
+
+### What do you expect to learn?
+
+I expect to learn a lot about proper testing. It (understandably) seems that
+testing is very important here, and while I can write tests and make them pass,
+there seems to be a long way to go before I have proper DRY and comprehensive
+test suites.
