@@ -72,3 +72,28 @@ I expect to learn a lot about proper testing. It (understandably) seems that
 testing is very important here, and while I can write tests and make them pass,
 there seems to be a long way to go before I have proper DRY and comprehensive
 test suites.
+
+## January 19, 2016
+
+### What did you learn yesterday?
+
+I learned the basics of Cucumber. I like the feature files, and the steps aren't
+all that hard to write either. I got follower functionality up and running yesterday,
+but I feel like I understand only about 80% of it. I should be able to use what
+I've learned to get the ability to favorite posts up today.
+
+### What are you going to do today?
+
+I'm going to write more comprehensive tests, primarily model tests, but also more
+integration tests since I no longer hate them. Annie helped me understand how Cucumber,
+rspec, and FactoryGirl all work together. Test writing can be time consuming, but
+I know how important they are, so I'm determined to get good at writing them. I
+should be able to finish the Twitter clone project today.
+
+
+### What do you expect to learn?
+
+I expect to learn more about testing best practices. My talk with Annie this morning
+helped me to understand all the different pieces of the tests. Tomorrow I plan
+to start on the task of setting up nginx on Deep Ocean, so I'm sure I'll learn
+a lot about that tomorrow.
