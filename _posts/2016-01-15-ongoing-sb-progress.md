@@ -97,3 +97,30 @@ I expect to learn more about testing best practices. My talk with Annie this mor
 helped me to understand all the different pieces of the tests. Tomorrow I plan
 to start on the task of setting up nginx on Deep Ocean, so I'm sure I'll learn
 a lot about that tomorrow.
+
+## January 20, 2016
+
+### What did you learn yesterday?
+
+As I mentioned yesterday, I learned quite a bit about tests and fixtures. I've
+gotten a bit better with integration tests. I went from feeling like I was just
+getting tests to run and pass through shear luck to feeling like I am ready to
+work on improving my test writing style to better meet best practices at SB.
+
+### What are you going to do today?
+
+Today, I'm going to set up the nginx server on Digital Ocean. This needs to be
+done using vim, so in preparation for that, I wrote my code kata entirely in vim
+this morning. Using vim at the moment sort of feels like trying to run a marathon
+with my legs on backwards. I can see where I need to go, but getting there is slow
+and cumbersome.
+
+
+### What do you expect to learn?
+
+I expect to learn some about containers, ssh, vim, and setting up a web server.
+So, it seems like today will be a lot of devops type of work. While some developers
+shy away from things that aren't strictly development, I think it's important
+to understand the whole environment I'm working in. I don't think I need to master
+every aspect right away, but at the very least nothing should feel like it's just
+done by magic.
