@@ -124,3 +124,32 @@ shy away from things that aren't strictly development, I think it's important
 to understand the whole environment I'm working in. I don't think I need to master
 every aspect right away, but at the very least nothing should feel like it's just
 done by magic.
+
+
+## January 21, 2016
+
+### What did you learn yesterday?
+
+Yesterday, I spent some time working in vim. I used it for my morning kata, and
+also for editing the nginx config file on Digital Ocean. I feel slightly more
+comfortable with it. I've gone from not being able to edit text at all with it
+and desperately typing :q every time I open it, to being able to write what I need
+at painfully slow speeds. That's an improvement, right? I learned a bit about
+nginx itself. The ssh portion was familiar, but editing the nginx config file was
+new to me.
+
+### What are you going to do today?
+
+Today, I'm working on getting my environment set up to run the ember portion of
+the to-do app. Assuming that goes well, I'll likely start building the API for it
+today. I believe I have some code review comments to address for the Twitter clone,
+so I'll also need to incorporate any recommended changes into that.
+
+
+### What do you expect to learn?
+
+I'm going to do my katas in vim from here on out, so I'll get more practice with
+that. Yesterday ended with npm vanishing as a command in my terminal, so perhaps
+I'll figure out why that happened. I'm sure there are nuances of code development
+that I'll learn today as well. It seems like every day I learn at least a few new
+things that I could not have predicted in this blog.
