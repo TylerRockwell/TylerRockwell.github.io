@@ -153,3 +153,18 @@ that. Yesterday ended with npm vanishing as a command in my terminal, so perhaps
 I'll figure out why that happened. I'm sure there are nuances of code development
 that I'll learn today as well. It seems like every day I learn at least a few new
 things that I could not have predicted in this blog.
+
+## January 22, 2016
+
+### What did you learn yesterday?
+
+Yesterday I learned about decorators and Draper. Essentially, decorators allow you to clean up your views by removing logic from them without cluttering up your model with methods that just format output. Since those methods don't really fit in either place, Draper provides a wrapper class to the model that is called by appending `.decorate` on the end of instance variable assignments. e.g. `@user = User.find(params[:id]).decorate`. Very cool.
+
+### What are you going to do today?
+
+I need to get in the habit of writing these posts earlier. Today I have worked on getting a bio and picture ready for smashingboxes.com. I spent some time this morning trying to think of a better way to make the roman numerals kata, but beyond moving the conversion hash into an instance variable, I came up short. This afternoon, I'll be working on the API for the todo app and pairing with Annie on a project.
+
+
+### What do you expect to learn?
+
+It's been a little bit since I built an api, so I expect to get a refresher on jBuilder. I'll likely also learn about writing integration tests for api's. I don't know what Annie and I will be working on, but whatever it is, I'm sure I'll gain some valuable knowledge from her as well.
