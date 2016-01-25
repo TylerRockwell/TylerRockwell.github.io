@@ -15,6 +15,147 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## January 25, 2016
+
+### What did you learn yesterday?
+
+These are always the worst to write on Monday. Friday, I learned a bit more
+about the proper place to put new actions and that it's okay to make an extra
+controller with only a couple actions for the sake of organization.
+
+### What are you going to do today?
+
+Today I'm finishing with the Twitter clone. (How many times have I told myself
+this already?) Anyway, I just need to finish refactoring to better, more RESTful
+routes. After that, I'll be working some more on the Rails Refactor project, and
+possibly on the Rails To-Do API as well.
+
+
+### What do you expect to learn?
+
+I'm expecting to learn more about getting data to views without violating mvc flow
+and also without having several instance variables in the controller. (Sandi Metz
+says more than 1 is too many.)
+
+
+## January 22, 2016
+
+### What did you learn yesterday?
+
+Yesterday I learned about decorators and Draper. Essentially, decorators allow you to clean up your views by removing logic from them without cluttering up your model with methods that just format output. Since those methods don't really fit in either place, Draper provides a wrapper class to the model that is called by appending `.decorate` on the end of instance variable assignments. e.g. `@user = User.find(params[:id]).decorate`. Very cool.
+
+### What are you going to do today?
+
+I need to get in the habit of writing these posts earlier. Today I have worked on getting a bio and picture ready for smashingboxes.com. I spent some time this morning trying to think of a better way to make the roman numerals kata, but beyond moving the conversion hash into an instance variable, I came up short. This afternoon, I'll be working on the API for the todo app and pairing with Annie on a project.
+
+
+### What do you expect to learn?
+
+It's been a little bit since I built an api, so I expect to get a refresher on jBuilder. I'll likely also learn about writing integration tests for api's. I don't know what Annie and I will be working on, but whatever it is, I'm sure I'll gain some valuable knowledge from her as well.
+
+## January 21, 2016
+
+### What did you learn yesterday?
+
+Yesterday, I spent some time working in vim. I used it for my morning kata, and
+also for editing the nginx config file on Digital Ocean. I feel slightly more
+comfortable with it. I've gone from not being able to edit text at all with it
+and desperately typing :q every time I open it, to being able to write what I need
+at painfully slow speeds. That's an improvement, right? I learned a bit about
+nginx itself. The ssh portion was familiar, but editing the nginx config file was
+new to me.
+
+### What are you going to do today?
+
+Today, I'm working on getting my environment set up to run the ember portion of
+the to-do app. Assuming that goes well, I'll likely start building the API for it
+today. I believe I have some code review comments to address for the Twitter clone,
+so I'll also need to incorporate any recommended changes into that.
+
+
+### What do you expect to learn?
+
+I'm going to do my katas in vim from here on out, so I'll get more practice with
+that. Yesterday ended with npm vanishing as a command in my terminal, so perhaps
+I'll figure out why that happened. I'm sure there are nuances of code development
+that I'll learn today as well. It seems like every day I learn at least a few new
+things that I could not have predicted in this blog.
+
+## January 20, 2016
+
+### What did you learn yesterday?
+
+As I mentioned yesterday, I learned quite a bit about tests and fixtures. I've
+gotten a bit better with integration tests. I went from feeling like I was just
+getting tests to run and pass through shear luck to feeling like I am ready to
+work on improving my test writing style to better meet best practices at SB.
+
+### What are you going to do today?
+
+Today, I'm going to set up the nginx server on Digital Ocean. This needs to be
+done using vim, so in preparation for that, I wrote my code kata entirely in vim
+this morning. Using vim at the moment sort of feels like trying to run a marathon
+with my legs on backwards. I can see where I need to go, but getting there is slow
+and cumbersome.
+
+
+### What do you expect to learn?
+
+I expect to learn some about containers, ssh, vim, and setting up a web server.
+So, it seems like today will be a lot of devops type of work. While some developers
+shy away from things that aren't strictly development, I think it's important
+to understand the whole environment I'm working in. I don't think I need to master
+every aspect right away, but at the very least nothing should feel like it's just
+done by magic.
+
+## January 19, 2016
+
+### What did you learn yesterday?
+
+I learned the basics of Cucumber. I like the feature files, and the steps aren't
+all that hard to write either. I got follower functionality up and running yesterday,
+but I feel like I understand only about 80% of it. I should be able to use what
+I've learned to get the ability to favorite posts up today.
+
+### What are you going to do today?
+
+I'm going to write more comprehensive tests, primarily model tests, but also more
+integration tests since I no longer hate them. Annie helped me understand how Cucumber,
+rspec, and FactoryGirl all work together. Test writing can be time consuming, but
+I know how important they are, so I'm determined to get good at writing them. I
+should be able to finish the Twitter clone project today.
+
+
+### What do you expect to learn?
+
+I expect to learn more about testing best practices. My talk with Annie this morning
+helped me to understand all the different pieces of the tests. Tomorrow I plan
+to start on the task of setting up nginx on Deep Ocean, so I'm sure I'll learn
+a lot about that tomorrow.
+
+## January 18, 2016
+
+### What did you learn yesterday?
+
+I've gotten a bit more comfortable with Devise and how to modify its generated
+structures. I'm gettting familiar with rspec syntax.
+
+### What are you going to do today?
+
+This morning I started working with Cucumber. Annie showed me how to write
+integration tests with it, and it's already much better than minitest. I'm going
+to work on getting my pull requests merged into master and I should finally get
+started on the follower functionality. I will also add more integration tests to
+make sure that everything I've written thus far continues to work.
+
+
+### What do you expect to learn?
+
+I expect to learn a lot about proper testing. It (understandably) seems that
+testing is very important here, and while I can write tests and make them pass,
+there seems to be a long way to go before I have proper DRY and comprehensive
+test suites.
+
 ## January 15, 2016
 
 ### What did you learn yesterday?
@@ -48,123 +189,3 @@ I expect to continue gaining experience with rspec and Devise. I'm working on my
 ability to not just produce working code now, but code that is good as well.
 
 tl;dr It's 2 sentences. Just read it.
-
-
-## January 18, 2016
-
-### What did you learn yesterday?
-
-I've gotten a bit more comfortable with Devise and how to modify its generated
-structures. I'm gettting familiar with rspec syntax.
-
-### What are you going to do today?
-
-This morning I started working with Cucumber. Annie showed me how to write
-integration tests with it, and it's already much better than minitest. I'm going
-to work on getting my pull requests merged into master and I should finally get
-started on the follower functionality. I will also add more integration tests to
-make sure that everything I've written thus far continues to work.
-
-
-### What do you expect to learn?
-
-I expect to learn a lot about proper testing. It (understandably) seems that
-testing is very important here, and while I can write tests and make them pass,
-there seems to be a long way to go before I have proper DRY and comprehensive
-test suites.
-
-## January 19, 2016
-
-### What did you learn yesterday?
-
-I learned the basics of Cucumber. I like the feature files, and the steps aren't
-all that hard to write either. I got follower functionality up and running yesterday,
-but I feel like I understand only about 80% of it. I should be able to use what
-I've learned to get the ability to favorite posts up today.
-
-### What are you going to do today?
-
-I'm going to write more comprehensive tests, primarily model tests, but also more
-integration tests since I no longer hate them. Annie helped me understand how Cucumber,
-rspec, and FactoryGirl all work together. Test writing can be time consuming, but
-I know how important they are, so I'm determined to get good at writing them. I
-should be able to finish the Twitter clone project today.
-
-
-### What do you expect to learn?
-
-I expect to learn more about testing best practices. My talk with Annie this morning
-helped me to understand all the different pieces of the tests. Tomorrow I plan
-to start on the task of setting up nginx on Deep Ocean, so I'm sure I'll learn
-a lot about that tomorrow.
-
-## January 20, 2016
-
-### What did you learn yesterday?
-
-As I mentioned yesterday, I learned quite a bit about tests and fixtures. I've
-gotten a bit better with integration tests. I went from feeling like I was just
-getting tests to run and pass through shear luck to feeling like I am ready to
-work on improving my test writing style to better meet best practices at SB.
-
-### What are you going to do today?
-
-Today, I'm going to set up the nginx server on Digital Ocean. This needs to be
-done using vim, so in preparation for that, I wrote my code kata entirely in vim
-this morning. Using vim at the moment sort of feels like trying to run a marathon
-with my legs on backwards. I can see where I need to go, but getting there is slow
-and cumbersome.
-
-
-### What do you expect to learn?
-
-I expect to learn some about containers, ssh, vim, and setting up a web server.
-So, it seems like today will be a lot of devops type of work. While some developers
-shy away from things that aren't strictly development, I think it's important
-to understand the whole environment I'm working in. I don't think I need to master
-every aspect right away, but at the very least nothing should feel like it's just
-done by magic.
-
-
-## January 21, 2016
-
-### What did you learn yesterday?
-
-Yesterday, I spent some time working in vim. I used it for my morning kata, and
-also for editing the nginx config file on Digital Ocean. I feel slightly more
-comfortable with it. I've gone from not being able to edit text at all with it
-and desperately typing :q every time I open it, to being able to write what I need
-at painfully slow speeds. That's an improvement, right? I learned a bit about
-nginx itself. The ssh portion was familiar, but editing the nginx config file was
-new to me.
-
-### What are you going to do today?
-
-Today, I'm working on getting my environment set up to run the ember portion of
-the to-do app. Assuming that goes well, I'll likely start building the API for it
-today. I believe I have some code review comments to address for the Twitter clone,
-so I'll also need to incorporate any recommended changes into that.
-
-
-### What do you expect to learn?
-
-I'm going to do my katas in vim from here on out, so I'll get more practice with
-that. Yesterday ended with npm vanishing as a command in my terminal, so perhaps
-I'll figure out why that happened. I'm sure there are nuances of code development
-that I'll learn today as well. It seems like every day I learn at least a few new
-things that I could not have predicted in this blog.
-
-## January 22, 2016
-
-### What did you learn yesterday?
-
-Yesterday I learned about decorators and Draper. Essentially, decorators allow you to clean up your views by removing logic from them without cluttering up your model with methods that just format output. Since those methods don't really fit in either place, Draper provides a wrapper class to the model that is called by appending `.decorate` on the end of instance variable assignments. e.g. `@user = User.find(params[:id]).decorate`. Very cool.
-
-### What are you going to do today?
-
-I need to get in the habit of writing these posts earlier. Today I have worked on getting a bio and picture ready for smashingboxes.com. I spent some time this morning trying to think of a better way to make the roman numerals kata, but beyond moving the conversion hash into an instance variable, I came up short. This afternoon, I'll be working on the API for the todo app and pairing with Annie on a project.
-
-
-### What do you expect to learn?
-
-It's been a little bit since I built an api, so I expect to get a refresher on jBuilder. I'll likely also learn about writing integration tests for api's. I don't know what Annie and I will be working on, but whatever it is, I'm sure I'll gain some valuable knowledge from her as well.
