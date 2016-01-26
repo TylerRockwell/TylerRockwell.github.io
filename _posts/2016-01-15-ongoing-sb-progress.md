@@ -15,6 +15,31 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## January 26, 2016
+
+### What did you learn yesterday?
+
+Yesterday, I learned about iTerm2 and zsh. I had heard of them previously, but
+had not used them. I'm now running omz with the candy theme. I'm probably not
+using all of its potential yet, but it is nice to have branch and ruby information
+right in my prompt.
+
+I also spent some time at the end of the day yesterday writing controller tests
+for the ToDo API. From that, I learned testing JSON is tedious. It's easy to have
+tiny discrepancies that cause the tests to fail. Like most things, I'm sure it'll
+get easier with time, but not quite yet.
+
+### What are you going to do today?
+
+Today, I'm finishing up tests for the ToDo API. I'll likely be starting on the
+Rails Bookstore, which is the last major project of the apprenticeship. I expect
+that to take some time, so that's likely what I'll be doing for the next several
+days.
+
+### What do you expect to learn?
+
+
+
 ## January 25, 2016
 
 ### What did you learn yesterday?
