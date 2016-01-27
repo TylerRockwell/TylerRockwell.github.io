@@ -15,12 +15,39 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+
+## January 27, 2016
+
+### What did you learn yesterday?
+
+Yesterday, I did the Gilded Rose kata. I got some great experience in refactoring
+code that isn't structured well, and learned some about how much easier it is to
+add features into a program once it broken down into easy to understand parts. I
+got a little more familiar with collection_select fields as well.
+
+### What are you going to do today?
+
+Today, I'm going to try my hand at the Gilded Rose kata without refactoring the
+original code. I'm curious to see how much effort it takes. I'm assuming it will
+make the jumble of if statements even more complicated and harder to maintain.
+
+After that, I'll be working on the Rails Bookstore app. I've got the books model
+and controller in place, and the books are sortable by any field on the index
+(although it's currently not done the best way). I'll likely implement user/admin
+accounts today as well.
+
+### What do you expect to learn?
+
+I'll be using devise to handle the user/admin accounts. I'm expecting to learn
+how to properly manage the different account types and control their access to
+different parts of the site.
+
 ## January 26, 2016
 
 ### What did you learn yesterday?
 
 Yesterday, I learned about iTerm2 and zsh. I had heard of them previously, but
-had not used them. I'm now running omz with the candy theme. I'm probably not
+had not used them. I'm now running oh-my-zsh with the candy theme. I'm probably not
 using all of its potential yet, but it is nice to have branch and ruby information
 right in my prompt.
 
@@ -38,6 +65,7 @@ days.
 
 ### What do you expect to learn?
 
+I expect to learn some more about testing JSON and an API in general.
 
 
 ## January 25, 2016
