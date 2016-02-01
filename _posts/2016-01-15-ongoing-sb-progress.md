@@ -15,6 +15,32 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## February 1, 2016
+
+### What did you learn yesterday?
+
+So, apparently I missed a day (of blogging, not work). So to recap what I did over
+the past few days. [I learned some things from the Gilded Rose kata]({ % post_url 2016-02-01-lessons-learned-gilded-rose % }).
+I got some practice in Gem modification and working with legacy code. Finally, I
+learned that if there's a good gem for a common task, you should use it. Don't just
+throw every gem you come across into your project, of course, but they can save
+you a ton of time and effort.
+
+### What are you going to do today?
+
+I'm going to continue working on the Rails Bookstore. Books, users, admins, sort,
+search, and pagination are all in place. I'll work on creating new users while logged
+in with Devise so admins can create more admins. Also, I need to get the email
+confirmation functionality up and running. Beyond that, I need to move towards
+implementing a cart and payment processing.
+
+### What do you expect to learn?
+
+I expect to learn some more things about Devise. It's gotten much easier to setup
+now that I've used it some. I can have an authentication system up and running in
+a couple minutes now instead of half an hour (or all day, like the first time with
+Devise). Most of my time will likely be spent on that and finishing the bowling
+scorer kata today.
 
 ## January 27, 2016
 
