@@ -15,6 +15,31 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## February 2, 2016
+
+### What did you learn yesterday?
+
+Yesterday, I learned how to set up email confirmation using Devise and Mailgun.
+I had used Mailgun previously, so the setup for that was pretty straight forward.
+Configuring the Devise end of things was easier than I expected. Once Devise is
+set up, it's just a matter of setting `:confirmable` in the model and running a
+migration. I learned to test this functionality as well. In order to use Factory
+Girl, whenever an account is created, you must run `user.confirm` for that user
+to be able to log in.
+
+### What are you going to do today?
+
+Today, I'm going to finish adding integration tests for the functionality that is
+in place. I'll be finishing up the cart today and possibly implementing Stripe.
+
+
+### What do you expect to learn?
+
+I expect to gain some familiarity with building a cart. I have a general idea of
+the structure that needs to be in place, but since I haven't built one before,
+I'm bound to learn something about the details of putting one together. If I make
+it to Stripe today, I'll learn about connecting my app to their API.
+
 ## February 1, 2016
 
 ### What did you learn yesterday?
