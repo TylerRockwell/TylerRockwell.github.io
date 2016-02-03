@@ -15,6 +15,34 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## February 3, 2016
+
+### What did you learn yesterday?
+
+I learned some new things about Cucumber and the Selenium driver yesterday. I set
+up tests that could find an element in a particular row of the DOM. I also learned
+how to test javascript popups with it. Annie helped me to set up Hound and Rubocop
+on my project as well. It's helped to take away some of the uncertainty I had while
+writing code in regards to style. I went through and linted my entire bookstore app
+yesterday. Now I'll know before I submit my PR if some random file has an extra
+blank line or is missing a space before a }.
+
+### What are you going to do today?
+
+Heh, this seems like the most difficult question to answer. Whatever I write here
+is usually wrong. It really should say, "what do you think you're going to do today?".
+I did finish up the order (I think order is more descriptive than cart for what
+they are doing) models yesterday and implemented most of the integration
+tests for now. Today, I'll set up the order controllers and get the models up
+and doing something.
+
+
+### What do you expect to learn?
+
+Again, I'll likely gain some knowledge about setting up order/cart functionality.
+I feel like if I mention Stripe here again, I'll never get to it, so I just won't.
+There. I didn't say it.
+
 ## February 2, 2016
 
 ### What did you learn yesterday?
