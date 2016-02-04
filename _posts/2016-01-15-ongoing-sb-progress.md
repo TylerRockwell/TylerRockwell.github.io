@@ -15,6 +15,36 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## February 4, 2016
+
+### What did you learn yesterday?
+
+Yesterday I learned that if you have a controller for something, but no model,
+that may be a good hint that you need that model. Case in point, I set up order
+functionality on my bookstore that had cart-like functionality. It even had a
+CartsController, but no cart model. It instead used Orders in various states to
+keep track of whether items had been purchased.
+
+This worked, but I had the Order class trying to do to much. Annie described it as
+going to the (physical) bookstore, and instead of using a cart, just bringing
+books to the cashier and leaving them there while you continue to shop. Does it
+work? Yes. Is it awkward? Also yes. In that case, and the case of my app, it's
+easier to just have a cart.
+
+### What are you going to do today?
+
+I built the cart model yesterday, and I restructured some of the underlying data
+to work more sensibly together. I'm waiting on a code review now before moving
+toward placing orders and charging customers. Since I went at things a little
+backwards, order functionality is in place, I just need to set up payment processing
+and handle moving items out of the cart and into a purchased order.
+
+
+### What do you expect to learn?
+
+I expect to learn about handling payments through Stripe and the order completion
+process. As always, I'll likely pick up something new about Cucumber as well.
+
 ## February 3, 2016
 
 ### What did you learn yesterday?
