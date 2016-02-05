@@ -15,6 +15,41 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## February 5, 2016
+
+### What did you learn yesterday?
+
+I learned that entering data into a Stripe form with Selenium is more complicated
+than it initially appears. The test needs to wait for the form to appear, which
+it does not by default. Then, the fields must be selected and entered in a particular
+way. The credit cart number, for example, must be broken into 4 inputs. Trying to
+enter a string of `'4242424242424242'` will not work. Nicholas Rutherford has this
+[awesome gist](https://gist.github.com/nruth/b2500074749e9f56e0b7) with the currently
+working steps.
+
+I also learned that while some things are more complicated than they first seem, but
+it is also equally plausible that you're perceiving things to be more complicated
+than they are. I spent a lot of time overthinking the checkout process of my bookstore,
+but today I've realized that it may not need to be as difficult as I was making it
+out to be.
+
+### What are you going to do today?
+
+I'm going to work on the checkout process of my bookstore today. I will be attempting
+to use Stripe only for the payment part of the transaction and use my own forms
+for all other data collection. I'm not entirely sure how I'm going to implement
+the ability to remember/retrieve customer payment data, but for now I'm not going
+to worry about it. It'll get worked out eventually.
+
+
+### What do you expect to learn?
+
+I'll get a refresher on nested forms. I've done them in the past a few times now,
+but I still need to reference older work to build them. I'll likely learn a bit more
+about managing customer payment information with Stripe. Also, I expect that once
+this is done, I'll have a better understanding of how the checkout process should
+work, and it should take significantly less time in the future.
+
 ## February 4, 2016
 
 ### What did you learn yesterday?
