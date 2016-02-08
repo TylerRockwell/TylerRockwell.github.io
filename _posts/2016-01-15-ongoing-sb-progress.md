@@ -15,6 +15,34 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+
+## February 8, 2016
+
+### What did you learn yesterday?
+
+I've really got to start leaving myself notes or something on Fridays. I learned
+that it's good to discuss things with the team when requirements don't seem clear.
+If something isn't clear to me, then it likely isn't clear to others as well. I also
+learned that while Stripe Checkout is a nice drop-in solution, its limitations are
+quickly recognized when trying to build any custom functionality around it.
+
+### What are you going to do today?
+
+I'll be working on putting together a custom checkout form that integrates Stripe.
+The checkout process is working at the moment, but not exactly the way I need it to.
+Depending on how long that takes, I may also add in some miscellaneous features that
+are still missing from the site like Admins creating more Admins, and the ability
+to see a list of orders on the site.
+
+
+### What do you expect to learn?
+
+I expect to learn how to add Stripe fields to a form and handle responses from their
+API. I'll likely have to add a check to make sure the credit card charge goes through
+before submitting an order. I think this is another thing that will take some time
+to set up initially, but once I know how, should be much faster in the future.
+
+
 ## February 5, 2016
 
 ### What did you learn yesterday?
