@@ -15,6 +15,37 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## February 9, 2016
+
+### What did you learn yesterday?
+
+I learned about the methods ActiveRecord provides when you create an association.
+I had used build when creating forms with nested attributes, but didn't realize how
+versatile that functionality is. I've essentially been writing code for a while
+that duplicates these provided methods. I've also gotten some more insight into
+refactoring methods into smaller methods with a single responsibility. Doing so
+sometimes reveals behavior that shouldn't even be in the class being refactored.
+There are more subtleties to write about as well, as I learn a lot any time I pair
+with Annie, but I could likely write half the day if I wrote everything down.
+
+### What are you going to do today?
+
+I have quite a bit to do today. I'm changing how order statuses are handled and
+assigned. I'm going to add in a few small missing admin features, like a view
+of all orders and the ability to create new admins. Beyond that, I need to finish
+up some tests and add in the ability to sort by most popular and allow users
+to pay with a saved credit card. I don't think I'll get to all of that today,
+but I think it's good to take inventory of where I'm at.
+
+
+### What do you expect to learn?
+
+I expect to learn a bit about assigning statuses to orders, and about the larger problem in
+general. Annie and I discussed how this tends to come up often and how it doesn't
+seem to have one optimal solution yet. Outside of that, I'll likely learn the best
+way to approach handling saved customer data from Stripe. I don't want to store
+customer credit card information in my database, so I'll need to note that the
+customer has a saved credit card and have a way to retrieve it.
 
 ## February 8, 2016
 
