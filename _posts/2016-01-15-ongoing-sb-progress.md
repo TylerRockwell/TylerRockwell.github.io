@@ -15,6 +15,32 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## February 10, 2016
+
+### What did you learn yesterday?
+
+So, I got to a lot of the things I listed yesterday. I didn't change statuses much,
+but I added admin features, invoice emails on order completion, and paying with
+saved credit cards. I spent the most time working with credit cards and Stripe again.
+I learned how to save a customer token and retrieve a customer from Stripe with it.
+I also got to work with my favorite language, Javascript, and every time I do that
+I at least gain familiarity with it.
+
+
+### What are you going to do today?
+
+The primary goal for today is getting the most popular sort to work. Outside of
+that, all I have left to do with the bookstore is allow admins to create more admins
+and finish up some tests. Also, I believe orders paid for with credit cards may
+not have a billing address set, so I'm going to look into that today as well.
+
+
+### What do you expect to learn?
+
+I've been thinking about how to set up the most popular sort order, and I think
+I'll learn something today about writing efficient algorithms. Also, I expect to
+learn about testing sort order in rspec.
+
 ## February 9, 2016
 
 ### What did you learn yesterday?
