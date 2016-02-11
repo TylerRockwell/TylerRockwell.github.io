@@ -15,6 +15,37 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## February 11, 2016
+
+### What did you learn yesterday?
+
+The bookstore is now feature complete. The most popular sort was easier than I
+anticipated. All I did was put the relationship between `OrderItems` and `Books`
+back in place (I had previously removed it, thinking it was not needed). To get
+the times sold for each book, I just iterated through the books' `order_items`
+and sum the quantity of each. To sort by most popular, looks something like this:
+`all.includes(:order_items).sort_by(&:times_sold).reverse!`. Not nearly as bad
+as I expected, and the `includes` keeps the database overhead low.
+
+I got a brief intro to services yesterday as well. Annie is supposed to talk about
+them more with me today.
+
+### What are you going to do today?
+
+Today I'm going to refactor some areas of the Bookstore and add some polish to it.
+There are areas where currency isn't formatted properly, addresses are shown as
+objects rather than the data they contain, etc... There is also some code that could
+just be written better and relocated to make the app cleaner. So, most of my day
+will likely involve addressing these things.
+
+### What do you expect to learn?
+
+I expect to learn about creating and implementing a service to handle behavior that
+doesn't quite fit into a model, view, or controller. The most obvious example in my
+app being the checkout process. The other things I need to do today are things that
+I know how to do but haven't prioritized because they take time. Now that the app is
+feature complete, I can take time to work on those things.
+
 ## February 10, 2016
 
 ### What did you learn yesterday?
@@ -25,7 +56,6 @@ saved credit cards. I spent the most time working with credit cards and Stripe a
 I learned how to save a customer token and retrieve a customer from Stripe with it.
 I also got to work with my favorite language, Javascript, and every time I do that
 I at least gain familiarity with it.
-
 
 ### What are you going to do today?
 
@@ -62,7 +92,6 @@ of all orders and the ability to create new admins. Beyond that, I need to finis
 up some tests and add in the ability to sort by most popular and allow users
 to pay with a saved credit card. I don't think I'll get to all of that today,
 but I think it's good to take inventory of where I'm at.
-
 
 ### What do you expect to learn?
 
