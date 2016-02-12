@@ -15,6 +15,49 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## February 12, 2016
+
+### What did you learn yesterday?
+
+Yesterday, I learned how to write a service layer. Essentially, a service is plain
+Ruby class that houses a bunch of related behavior, typically between many objects,
+that doesn't fit into the standard MVC architecture. In the case of my bookstore,
+I needed one for the checkout process. Things like creating charges, emptying the
+cart, and sending an invoice definitely don't belong in a view, they don't quite fit
+into a controller (not to mention they make it bloated), and don't go along with
+any one model. I do have some behavior defined in a model, such as `.empty` in the
+`Cart` class, but the call to that method comes from the service. A service typically
+has one exposed method and several private methods. The one public method is called
+whenever the service needs to run, and everything happens within the private methods.
+Clean code, ftw!
+
+I also set up `stripe-ruby-mock` for testing the service yesterday. When I first
+started putting the spec file together, I didn't really think I'd be able to test
+all the behavior. However, I put everything together one small step at a time, and
+now my service has fully tested behavior. Tests are time consuming, but they are
+so wonderful when it comes time to refactor or add new behavior.
+
+### What are you going to do today?
+
+So, the bookstore feels pretty done. It's not the most beautiful project I've put
+together, but with all the brilliant front-end, UI/UX, and design people here,
+I'm sure nobody needs my input on how a site should look anyway. I know there are
+new features being introduced to the bookstore, so I need to find out what those are
+today and I'll work on getting them implemented. Annie says my code is clean enough
+that it shouldn't be difficult to add, so here's hoping she's right.
+
+### What do you expect to learn?
+
+I'm fairly certain the new feature will be including discounts for purchases without
+altering the original unit price of a book. I know that a deployment is coming soon
+as well. So, at the very least, I will gain experience with these processes. It seems
+that a big part of coding well (and in less time) is seeing similar problems arise
+and knowing how best to overcome them. Throughout this app, and the apprenticeship
+in general, the things I've seen before (like setting up REST actions for a new resource),
+tend to go quickly and smoothly, while new problems are time consuming and require
+a lot of thought and research. So, at this point I'm not exactly sure what I'll learn
+today, but I know I'll at least gain experience.
+
 ## February 11, 2016
 
 ### What did you learn yesterday?
