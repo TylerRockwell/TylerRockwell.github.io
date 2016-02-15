@@ -15,6 +15,61 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## February 15, 2016
+
+### What did you learn yesterday?
+
+Yesterday (Friday), I learned how to use Tape, which is an internal tool for deployment.
+I got my bookstore deployed onto a Digital Ocean droplet, which of course, included
+all the inevitable deployment bugs. Honestly, it's not all that bad. I need to get
+email up and running from the deployed app, and everything else seems to be discrepancies
+from using sqlite3 in development and postgres in production. (I should not have
+been using sqlite3 in the first place).
+
+I also redid the Gilded Rose kata, because repetition is key. I noticed, however
+that the way I write methods, and my naming conventions have changed a lot over
+the past few weeks. It hadn't really been obvious until I looked back at how I had
+previously solved it.
+
+For example, I wrote this method the first time around
+```
+def daily_adjustment(item)
+  change = 0
+  change += degrading_item?(item) ? -1 : 1 + backstage_passes_modifier(item)
+  change *= conjured_item_modifier(item)
+  change
+end
+```
+If you stare at that long enough, you may be able to figure out what it's doing.
+It works, and the tests pass. However, when I did the kata again this method turned
+out like this
+```
+def daily_quality_adjustment(item)
+  if better_with_age?(item) || time_sensitive?(item)
+    improve_item(item)
+  else
+    degrade_item(item)
+  end
+end
+```
+I think that is much clearer at first glance, and while much of the underlying logic
+is the same, it seems my thought process and naming conventions have changed drastically
+over the past few weeks.
+
+### What are you going to do today?
+
+Today, I will be addressing the production bugs in the bookstore. I'm going to add
+the discount feature soon as well, but I need more detail about what is expected
+from that feature. I also don't want to try building new features on top of an
+app that is not working correctly, so I'll start the day with bug fixes.
+
+### What do you expect to learn?
+
+I expect to learn some about postgres and configuring ActionMailer in production.
+I know that pg won't allow you to use the LIKE operator on non-text fields. I may
+just end up switching everything to ransack as there's no need to reinvent the
+wheel here.
+
 ## February 12, 2016
 
 ### What did you learn yesterday?
