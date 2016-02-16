@@ -15,6 +15,37 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+
+## February 16, 2016
+
+### What did you learn yesterday?
+
+I spent most of yesterday chasing production bugs. There were a bunch of issues
+with API keys and email needed to be configured to work in production. I learned
+that just because your rails app can see the keys (they work in rails c), there's
+a chance they still may not work anyway. Everything worked once I moved from using
+environment variables in my `secrets.yml` to just pasting the keys directly in.
+It's in `.gitignore` and on the production server, which I don't push from, but
+a part of me is still irked by putting keys directly in a file within the repo.
+I'll likely look into better ways of managing keys in the future.
+
+### What are you going to do today?
+
+Near the end of the day yesterday, I started work on the discount feature of the
+bookstore. It's up and working now, but it needs to be cleaned up some, so that's
+what I'll work on this morning. After that, I'm not entirely sure what I'll be
+working on. It may be SmarfDoc. I've been trying to unravel that during my free time.
+It'd be nice to allocate more time to it.
+
+### What do you expect to learn?
+
+I'm still working out where to fit features like discounts in. I integrated it into
+the `Book` model and the `create/update` actions of the `BooksController`. It works
+there for now, but I think if the feature got any more advanced it may need to be
+moved out into its own class. I think the more I write, the clearer these decisions
+will become. Or at the very least I'll have a better understanding of the criteria
+on which I should base that decision.
+
 ## February 15, 2016
 
 ### What did you learn yesterday?
