@@ -15,6 +15,73 @@ So, each entry into this post will follow this format:
 Each entry should be relatively short, but important topics may expand
 out into their own posts. We'll see.
 
+## February 17, 2016
+
+### What did you learn yesterday?
+
+I started doing a major refactor to SmarfDoc yesterday. I spent a lot of time
+just going back and forth through the code, following program flow and trying
+to understand everything that was happening. I wasn't sure if this was something
+I would be able to work with until yesterday afternoon. I managed to remove a lot
+of duplicated logic, reduce the complexity of parameters being passed around the
+program, and rewrite other parts just for the sake of readability. I gained some
+insight into working on other people's code and learned how important it is to
+Google something you're unsure of. For some parts of the program I was able to learn
+more about how they work (e.g. Building ERB templates with binding), and others I
+discovered were just names that were left over from the gem's previous name
+(Doc yo' self).
+
+Aside from that, Annie and I paired yesterday, and she helped me refactor my "most popular"
+sort on the bookstore to be done inside of a database query rather than in an array.
+This array was causing problems with using Draper, and just kept causing issues
+in the rest of the app. That's a great sign that code needs to change. So, if you're
+interested to see how to sort on a calculated field directly from the database, this
+is how it's done. My original code was in an earlier post, but here it is again.
+`all.includes(:order_items).sort_by(&:times_sold).reverse!` This code is a scope
+on the `Book` class. `times_sold` is also an instance method on book that sums
+the `quantity` of book's `order_items`. The complication comes from the `quantity`
+field. Sorting by `count(order_items)` would have been much easier. It took some
+time, but we eventually got it to work. I'm not certain I'd have figured this out
+without her, so a big thanks to Annie for taking the time to work on this with me.
+The final code is as follows:
+```
+scope :most_popular, lambda {
+    joins("LEFT OUTER JOIN order_items ON order_items.book_id = books.id")
+      .select("books.*, coalesce(sum(order_items.quantity),0) AS total_quantity")
+      .group("books.id")
+      .order("total_quantity DESC")
+  }
+```
+The `left outer join` makes sure to include books that have not been ordered in
+the list. `sum(order_items.quantity)` seems self-evident, but `coalesce` must be
+used to get books without sales to return 0. By default, Postgres returns `null`.
+When using `order` on this field, the null cases show up at the top of the list,
+which is exactly the opposite of what I needed. From there, just group on `books.id`
+and order on `total_quantity`. Now I don't have an array floating around that needs
+special treatment. This returns the proper ActiveRecord relation, and it does so
+all in one query to the database. I'm certain I will run into this issue again in the
+future, and it will be nice to have this code to refer back to.
+
+### What are you going to do today?
+
+Today, I'll make some final tweaks to the last code review on the bookstore. I'm
+going to get some goals set for the SmarfDoc refactor (into the new and improved
+Smashing Docs). It seems to be in a place where it is extendable now, so adding
+functionality won't be quite so tedious and confusing.
+
+### What do you expect to learn?
+
+I'll likely gain some experience to planning out a project today. Everything thus
+far in the apprenticeship has essentially been dictated through the apprenticeship
+curriculum, but this project doesn't have predefined criteria in place already. I've
+planned projects before (ArtTrack), and I think they were scoped well and went smoothly,
+but more experience is always a good thing.
+
+Also, Jordan mentioned ActiveSupport::Concerns yesterday in my pr, so I'll ask around
+about them today and learn what I can about setting one up. About half the methods
+on my `Book` class are *concerned* (see what I did there? It's okay to sigh...)
+with the price of a book, so it'd be nice if I could move that logic into its own
+place. 
 
 ## February 16, 2016
 
