@@ -1,9 +1,50 @@
 ---
 layout: post
-title: The Ongoing Smashing Boxes Progress Post
+title: The Ongoing Smashing Boxes Progress Post February 2016
 description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
+
+
+## February 19, 2016
+
+### What did you learn yesterday?
+
+It's tough to know where to begin with this. I learned so much about gem building
+yesterday. I also learned that it's incredibly difficult to find a good resource
+on writing a customer generator for a gem, and even harder to find information about
+testing one. I'll be writing up a post that covers the process of adding a generator
+to an existing gem. Tutorials for creating a new gem are pretty common, so I don't
+see the value in creating another one.
+
+So, yesterday I learned about generators, generator testing, Thor, gem namespacing,
+and how to publish gems. Smashing Docs is now a real gem on rubygems, and can be
+installed via `gem 'smashing_docs'`. Publishing was rather easy once everything was
+set up properly within the gem itself.
+The majority of my time was spent reading and learning yesterday. Searching was tricky
+because looking up a phrase like, "rspec generator testing" returns lots of results
+about how to generate RSpec tests for pieces of your Rails app.
+
+### What are you going to do today?
+
+Today, I'll probably work on writing a task that generates the docs only when
+you run something like `rails g smashing_documentation:get_docs`. The process
+should be similar, but I'd like to trigger running the tests with this command,
+and I'm not sure how that would be done. I'll do my best to find that today. I may
+add in some options like asking if the user wants the docs to be generated on all
+tests by default or if they want to specify only the tests they want docs for. But,
+that'll depend on how long the first task takes.
+
+### What do you expect to learn?
+
+I'll go over the process of making another `rails g` task again today. It *should*
+go much faster this time. However, I'll likely have to spend some time trying to
+figure out if I can trigger running the test suite with that task. If not, I can
+at the very least change whether or not SmashingDocs will run when the tests are
+run. Flow for that would look something like:
+* `rails g smashing_documentation:start_docs`
+* `rake`
+* `rails g smashing_documentation:stop_docs`
 
 ## February 18, 2016
 
