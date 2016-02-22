@@ -5,6 +5,41 @@ description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
 
+## February 22, 2016
+
+### What did you learn yesterday?
+
+Yesterday, I got into weird testing territory. My generator checks for the presence
+of a spec folder before installation, and either installs if it's found, or notifies
+the user they need to be using RSpec if they want to use the auto-installer. The method
+works just fine, but testing it is proving to be difficult. It looks in the project
+root folder, which is the desired behavior in production, but since my gem has a
+spec folder, this test will always find it, and therefore only tests one path.
+
+I hadn't really thought about these things before. The other issue that came up in
+the course of testing is that I plan on building a generator that runs the test suite.
+I expect to run into similar trouble here building tests for this behavior. That is,
+I'll have a test on a method that runs the tests.
+
+### What are you going to do today?
+
+Today, I'm going to try to get tests written and passing for this behavior. I'm going
+to write the docs generator. I'm also going to put together another PR for the original
+author of SmarfDoc. I'm not sure where development is heading, as it's proving to be
+a significant amount of extra work to build functionality under the SmashingDocs name,
+then, in a separate project, redo the same work (with lots of pasting, of course) with
+the SmarfDoc name. There are also now 2 gems with nearly the same functionality on
+RubyGems. Hopefully I can get some direction on this today.
+
+### What do you expect to learn?
+
+I'm expecting to learn some more about testing some of the issues mentioned above.
+(There have been so many lessons on tests in the past month.) I would imagine that
+stubbing, or something similar is going to come into play soon. This would work well
+for testing that the test suite is called but not actually running it. I'm not really
+sure how to manipulate the test that checks for a spec folder, however. Right now,
+it renames the folder then runs the generator, then puts the name back. I'm certain
+that this is *not* the right way to test this.
 
 ## February 19, 2016
 
