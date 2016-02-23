@@ -9,6 +9,36 @@ tags: [career, progress, smashing boxes, learning]
 
 ### What did you learn yesterday?
 
+Yesterday I learned that trying to test the tasks that my generators do is not
+trivial. I've been Googling and asking others, but so far have not come up with a
+good solution. I left the testing behind for now *gasp!* and decided to work on
+other features. I wrote a `rails g` task to generate the docs instead of having
+them run every time the test suite runs. I learned that if you have `rspec-rails`
+in your `test` group, but not `development`, `rake` will run the tests, but
+`rake spec` will not. At first I thought this was a problem with the code I wrote,
+but after testing it on another app, I eventually figured out it was because of
+the environment group.
+
+### What are you going to do today?
+
+The last thing I need to do with SmashingDocs (aside from the tests), is upgrade
+the default template. After that, I'll be looking into doing some of the bonus
+criteria. I'll be focusing on auto-pushing to a wiki and Slate integration.
+I'm also going to ask around for what bits
+of information are important on the docs, so I can make sure that everyone's needs
+are covered with the default template.
+
+### What do you expect to learn?
+
+I haven't used wikis on Github, nor have I used Slate before, so I'll try those out
+manually today before trying to automate them with SmashingDocs. I expect to gain
+some familiarity with those two things. I'm also going to attempt to figure out
+how to get required params listed in the docs.
+
+## February 22, 2016
+
+### What did you learn yesterday?
+
 Yesterday, I got into weird testing territory. My generator checks for the presence
 of a spec folder before installation, and either installs if it's found, or notifies
 the user they need to be using RSpec if they want to use the auto-installer. The method
