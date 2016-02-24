@@ -5,7 +5,32 @@ description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
 
-## February 22, 2016
+## February 24, 2016
+
+### What did you learn yesterday?
+
+I got the feature to auto-push docs to Github to 'work' yesterday. I say 'work'
+because, while it does the job, it's kind of a janky solution. That being said,
+I learned a bit about running shell commands from within Ruby, and gained some
+familiarity with the Github project wiki page.
+
+### What are you going to do today?
+
+I'm going to look into improving the auto-push feature. I may integrate the Github
+API. That'll take some more research. I still haven't thought of a good way to get
+required/optional params into the docs without manually doing something like
+`SmashingDocs.information(:req_params, ["id", "last_name"])`, which I'm sure most
+people won't take the time to do. I may end up adding this as an optional feature
+anyway just so it's there if someone wants to take the initiative to use it, and
+it won't adversely affect those who don't.
+
+### What do you expect to learn?
+
+If I incorporate the Github API, I'll still need to parse the name of the rails app
+and figure out how to add files/commit/push from another repo, since the wiki is in
+its own repo. It looks like Slate integration will be a similar process.
+
+## February 23, 2016
 
 ### What did you learn yesterday?
 
