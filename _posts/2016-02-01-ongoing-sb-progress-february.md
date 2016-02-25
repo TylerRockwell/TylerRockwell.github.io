@@ -5,6 +5,37 @@ description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
 
+## February 25, 2016
+
+### What did you learn yesterday?
+
+Yesterday, I learned that sometimes when you're trying to test a method, it can
+be easier to refactor that method into smaller pieces and test each of those.
+This ties back into the principle of single responsibility. As long as every piece
+is doing it's one part properly, then the system as a whole should be running properly
+as well. As an extra benefit, if something does break, it's easier to pinpoint where
+the issue is.
+
+### What are you going to do today?
+
+Development on SmashingDocs is starting to wind down. I got through it faster than
+I expected. Every must-have feature Annie and I decided on is done. I've been working
+on some of the optional stuff, (like auto-push), but some of the other requirements
+(ignoring diffs when only ids have changed on the docs) I may need some help to complete.
+
+Today, I'll be working on getting the already built features merged and deployed.
+The Github repo for SmashingDocs is now public so people outside of SB will be able
+to view the README and the source code, which are both quite important. So,
+once this work is reviewed and merged, we should be able to start using it internally
+and get feedback for future development.
+
+### What do you expect to learn?
+
+I'm not exactly sure what will come up, but I'm sure someone will have some good input
+on my code reviews today, and I'll take away lessons from that. The apprenticeship
+lecture series is starting today as well, and continues through Monday, so I'm
+sure I'll be picking up new lessons/skills/thoughts etc... from those.
+
 ## February 24, 2016
 
 ### What did you learn yesterday?
