@@ -5,6 +5,39 @@ description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
 
+## February 26, 2016
+
+### What did you learn yesterday?
+
+I had my first apprenticeship lecture yesterday with Mike B. He discussed the roles
+of the project team and how they'll influence our day to day. It seems like
+they have a great (and realistic) understanding of what the software development process
+is like, and I can definitely see the value they provide to the company, the client,
+and the dev team. I think they'll be great to work with once I start doing client work.
+
+Annie covered mocks/stubs yesterday during our pairing. I had a general idea of what they did,
+but she was able to elaborate on that and illustrate specific use cases. I could have
+used them in the past when trying to test a simple method that required a bunch of setup,
+but I'm sure I'll have plenty of opportunity to use them in the future as well.
+
+### What are you going to do today?
+
+Today, I'm trying to get the last couple features of SmashingDocs reviewed and released.
+I've got another apprenticeship lecture with Hillary and Alicia, who are on the Growth
+team. Tonight/tomorrow, I'll be volunteering as a TA at the Ruby Bridge Intro to Rails
+class.
+
+Also, if Annie has time, I'd like to see if there's a *typical* way that Slate is used
+here, and if so, I can work on integrating SmashingDocs with Slate. If not, I may work
+on a personal tool, like a script that initializes a new Rails repo and removes turbolinks,
+adds/removes gems from the Gemfile, etc...
+
+### What do you expect to learn?
+
+I'll definitely learn about the growth team, and get a better understanding of what they
+do here. Then, depending on how the day goes, I may learn some things about Slate, or
+I may learn about setting up a Ruby script or make another small gem. We'll see.
+
 ## February 25, 2016
 
 ### What did you learn yesterday?
