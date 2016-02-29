@@ -21,7 +21,7 @@ I found it so helpful while writing the generators for Smashing Docs. I'm sure I
 be reusing (and likely expanding) it in the future. What used to be the first fifteen
 minutes of app setup (Getting the gems, Removing Turbolinks, Installing RSpec, etc...)
 is now done in about half a second with the script. If anyone would like to use it,
-it can be found [here](https://github.com/TylerRockwell/rails_new_bot/blob/master/rails_new_bot.thor).
+it can be found [here](https://github.com/TylerRockwell/rails_new_bot).
 Please note, that this was a meant to be a quick script, and not a polished project, so it is not
 tested well, nor does it have good error handling. It also assumes that you
 are in a brand new rails app. It does, however, have a command for an API and one for an app
