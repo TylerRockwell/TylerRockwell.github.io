@@ -5,6 +5,43 @@ description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
 
+## February 29, 2016
+
+### What did you learn yesterday?
+
+Yesterday, I learned that the growth team, and the information they provide,
+primarily SEO and analytics, seem to be an afterthought to clients when planning
+a web project. It's incredible to me that someone would spend a significant amount
+of money on a project, but not care about getting organic search traffic, or want
+to measure where various aspects of the app are working and where the inefficiencies
+lie.
+
+I also wrote that script I mentioned for setting up a rails app. I used Thor, since
+I found it so helpful while writing the generators for Smashing Docs. I'm sure I'll
+be reusing (and likely expanding) it in the future. What used to be the first fifteen
+minutes of app setup (Getting the gems, Removing Turbolinks, Installing RSpec, etc...)
+is now done in about half a second with the script. If anyone would like to use it,
+it can be found [here](https://github.com/TylerRockwell/rails_new_bot/blob/master/rails_new_bot.thor).
+Please note, that this was a meant to be a quick script, and not a polished project, so it is not
+tested well, nor does it have good error handling. It also assumes that you
+are in a brand new rails app. It does, however, have a command for an API and one for an app
+with html views.
+
+### What are you going to do today?
+
+Today, I'm going to work on getting the rest of the features merged into the master
+branch of SmarfDoc. This afternoon, and I'll this week, I have my pairing tour, so
+I'll be building less, but learning a lot about the other disciplines here.
+
+### What do you expect to learn?
+
+I expect to learn a lot about what others do here. As an aside, while I'm learning
+everything else, I've decided to swap to the [Colemak](http://colemak.com) keyboard layout. I'm doing it
+in steps using the Tarmac layouts within Karabiner to learn it a few keys at a time
+without completely killing my typing abilities. I thought it'd be nice to type
+on a keyboard layout that wasn't specifically designed to make its users type slower.
+
+
 ## February 26, 2016
 
 ### What did you learn yesterday?
