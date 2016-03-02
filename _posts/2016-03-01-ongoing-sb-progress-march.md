@@ -4,6 +4,41 @@ title: The Ongoing Smashing Boxes Progress Post March 2016
 description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
+## March 2, 2016
+
+### What did you learn yesterday?
+
+Yesterday I learned how your experience level as a dev influences the way you approach
+software design. My current design approach is to find a place within the app that
+seems appropriate to put the new behavior into, and start building it there. Since
+starting up my career in programming, my approach has evolved from "make this thing
+work" to "make this thing work and write it decently". After pairing with Brian yesterday,
+I have seen the mindset of an experienced dev, and it's a very different approach.
+
+As we worked together, we talked about what the feature needs to do today, where it
+may be best to put different pieces of the behavior, what this feature might need to
+be capable of, and how best to write this feature to be easily extendable in the
+future without writing out a bunch of behavior now that may never be used.
+
+I may not be able to put everything I learned into practice right away, but it
+seems like another step on the way to becoming a better coder.
+
+### What are you going to do today?
+
+SmashingDocs seems like it is ready to be used, so hopefully that message can be
+passed around the office today. I may work on DRYing up the test suite for it.
+
+This afternoon, I'm pairing with Tyler, (Tyler McCraw, my coworker, not myself in
+the 3rd person). I'm not sure what we'll be working on, but I know every day of pairing
+will be unique.
+
+Also, Brandon asked for some feedback on the apprenticeship lecture series, so I'll
+write that up for him today.
+
+### What do you expect to learn?
+
+Like I said, I'm not certain what will be covered today in my pairing session, but
+I'm sure I'll have a lot to write about tomorrow.
 
 ## March 1, 2016
 
