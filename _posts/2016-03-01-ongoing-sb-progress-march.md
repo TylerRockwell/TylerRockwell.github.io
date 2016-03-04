@@ -4,6 +4,60 @@ title: The Ongoing Smashing Boxes Progress Post March 2016
 description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
+## March 4, 2016
+
+### What did you learn yesterday?
+
+So, some things got rescheduled yesterday, and I ended up pairing with Annie for the afternoon.
+We worked on implementing file upload with MongoDB. Everything relating to MongoDB was new to me,
+so I got some basics about how a no SQL database works. I also realized how much I had relied on Rails
+magic for file upload in the past. Everything is done in a much more manual way when dealing with an
+API. I learned a bit about creating a tempfile and using that to get the file passed to the model.
+
+### What are you going to do today?
+
+While working with Annie yesterday, I noticed that her app folder name and wiki folder names didn't
+match up. It dawned on me that this is probably a common thing and that I should address the behavior
+for pushing to the wiki in SmashingDocs. I've decided to add a config for this, and will be working
+on that this morning. Depending on how long that takes, I may or may not go back to writing automation
+tools/scripts.
+
+### What do you expect to learn?
+
+Adding the new config shouldn't be too different from what I've done with the other configs. I've
+been learning lots of little things about my editor/environment while building tools like my thor script
+and the controller snippet I wrote yesterday. I expect that I'll continue to learn more of the same today.
+
+## March 3, 2016
+
+### What did you learn yesterday?
+
+Yesterday I got an intro to Android development. I learned about the basic structure of
+an Android app, like fragments and activities. I learned how events are handed off
+between fragments and other apps. Tyler did a great job of covering a lot of material
+in a rather short amount of time.
+
+We worked in Android Studio, and he reminded me that I kind of miss working in a
+full IDE. I may give RubyMine a shot at some point, just to see if I prefer it over
+Atom, but I'm sure it'll come with a learning curve.
+
+The hardest part of learning about new things is trying to find time to continue
+learning about those things. I've been intrigued by mobile development for a while
+now, but haven't really pursued anything with it. I feel like I have enough of a
+foundation to build a very basic app, but now I just need to find the time to build one.
+
+### What are you going to do today?
+
+This afternoon, I'm pairing with William. Annie says that he has been working on
+some interesting projects lately, so I'm looking forward to see what we'll be working
+on today.
+
+### What do you expect to learn?
+
+I may mess around with RubyMine some today before I start pairing. SmashingDocs is
+good to go, and I don't have anything else that I'm responsible for during the pairing
+tour, so I'd like to utilize that time to learn some things.
+
 ## March 2, 2016
 
 ### What did you learn yesterday?
