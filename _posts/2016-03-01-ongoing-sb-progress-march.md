@@ -4,6 +4,33 @@ title: The Ongoing Smashing Boxes Progress Post March 2016
 description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
+
+## March 4, 2016
+
+### What did you learn yesterday?
+
+I added the last SmashingDocs config yesterday, and it was pretty straight forward. It would have gone
+faster had I not typed the folder name wrong into the config and thought things were broken. During
+labs time, I started learning about how to write a web scraper. This is something I've wanted to learn
+for a while, but for one reason or another, I just haven't. The code for them is rather simple, compared
+to something like a standard Rails project. The hard part is getting to the data you need using the proper
+requests, and parsing the data into a usable format with Nokogiri.
+
+### What are you going to do today?
+
+This morning, I'll be continuing work on the scraper I'm writing. The Nokogiri gem is good to have
+familiarity with, so I'll use my time in the mornings for that this week. This afternoon, I'll be
+pairing with Michael. Once again, I'm not sure what we'll be covering, but I'm sure I'll have plenty
+to report tomorrow.
+
+### What do you expect to learn?
+
+From writing the scraper, I think I'll gain some experience with investigating how sites structure their
+requests, and the ways they handle getting data on the page. Also, I should get some practice in building
+a proper data structure to handle the data coming in without just generating a Rails model.
+
+As far as pairing with Michael, I don't know at the moment, but I'm sure it'll be a lot.
+
 ## March 4, 2016
 
 ### What did you learn yesterday?
