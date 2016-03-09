@@ -5,7 +5,36 @@ description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
 
-## March 4, 2016
+## March 9, 2016
+
+### What did you learn yesterday?
+
+Since I didn't write yesterday, I'll try to briefly cover yesterday and Monday.
+
+On Monday, I paired with Michael, who showed me the basics of getting a Node environment set up. We
+talked about how design works on the front end, with a focus on reusable components, rather than building
+pages as a whole. It was cool to see, and I'll probably spend some time in the future learning more about
+it just so I'll be a more versatile developer.
+
+Yesterday I paired with Jordan, and we worked on a Keystone API. Everything feels so oddly similar but
+different. The underlying principles are the same, but working with that made me appreciate Rails.
+
+### What are you going to do today?
+
+Today, I'll be pairing with Nick Cook in the afternoon. In the meantime, I'll continue to work on any
+SmashingDocs bugs that come up, and I'll continue work on a web scraper that I started on Friday.
+
+### What do you expect to learn?
+
+I'm getting some experience with supporting software that others are using. Most everything I've built
+thus far has either been for personal use, or an assignment that doesn't get used after it's done.
+
+With my scraper, I've been improving requests, timing, file output, and I expect to learn some more
+about refactoring and hopefully solidify the principle of single responsibility. I understand the principle
+itself, but sometimes it can be hard to see the division of where one responsibility ends and where
+another begins. The only thing that will make this better, however, is practice.
+
+## March 7, 2016
 
 ### What did you learn yesterday?
 
