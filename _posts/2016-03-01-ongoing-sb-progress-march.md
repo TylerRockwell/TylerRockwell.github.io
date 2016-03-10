@@ -5,6 +5,27 @@ description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
 
+## March 10, 2016
+
+### What did you learn yesterday?
+
+Yesterday, I learned some more about Android development. I paired with Nick, and we implemented some view
+handlers, and made a few small UI improvements. I may not be ready to build production level apps,
+but I've at least got an idea of what Android development is like.
+
+### What are you going to do today?
+
+Today is the last day of my pairing tour, and I'll be pairing with Patrick. I'll be sure to update
+tomorrow about what we worked on. Aside from that, I'll be looking into working with the Mechanize
+gem today, and possibly swap my scraper to downloading a CSV file and parsing data from that, which
+would speed it up substantially.
+
+### What do you expect to learn?
+
+I'm sure most of whatever Patrick and I cover will be new. Using Mechanize will be new to me, and
+while I've parsed CSV data before, it's not something I'm amazing at doing off the top of my head.
+Sometimes repetition is just as important as discovering something new.
+
 ## March 9, 2016
 
 ### What did you learn yesterday?
