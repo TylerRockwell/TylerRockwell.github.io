@@ -5,6 +5,28 @@ description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
 
+## March 11, 2016
+
+### What did you learn yesterday?
+
+I spent the majority of my day pairing with Patrick yesterday. As we worked through adding relatively
+common features to the project he's working on, the benefits of pair programming started to become clear.
+
+With each of us contributing our ideas, we were able to come to better design decisions more quickly by working
+together. Features were implemented faster, and we didn't get hung up on one thing for too long even
+when issues inevitably came up.
+
+### What are you going to do today?
+
+Today, I'm trying to improve my skills with javascript websites, and dissecting how they work using
+the Chrome developer tools. I'll be taking some time to learn about NodeJS, as I will likely be
+working with that soon.
+
+### What do you expect to learn?
+
+I expect to learn how to do something in Node. At this point I've never used it (besides the few hours
+that I paired with Jordan), so anything will be an improvement on where I'm at now.
+
 ## March 10, 2016
 
 ### What did you learn yesterday?
