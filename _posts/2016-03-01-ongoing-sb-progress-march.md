@@ -5,6 +5,26 @@ description: "Where I'll write about all the wonderful things SB teaches me"
 tags: [career, progress, smashing boxes, learning]
 ---
 
+## March 14, 2016
+
+### What did you learn yesterday?
+
+I created a small CRUD API to get the basics of Node and Express down. I spent most of the day reading
+and familiarizing myself with how things are done. I also spent most of the weekend going over
+JS/JQuery things on Treehouse. JS/Jquery/CoffeeScript keep coming up, so I think it's best that I
+improve my skills in those areas.
+
+### What are you going to do today?
+
+I've officially been offered a permanent job here at Smashing Boxes, and I'm super excited about that!
+I'm going to continue improving my skills until I am resourced to a project (granted I'll be improving
+then too, but a little less directly).
+
+### What do you expect to learn?
+
+As mentioned, mostly Node/Express things. I may spend some time on OverTheWire today as well. Familiarity
+with the command line and the whole system environment is never a bad thing.
+
 ## March 11, 2016
 
 ### What did you learn yesterday?
