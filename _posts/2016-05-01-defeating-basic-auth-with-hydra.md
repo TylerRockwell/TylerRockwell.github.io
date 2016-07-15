@@ -21,7 +21,7 @@ I'm going to demonstrate just how easy it is to break into such a device by runn
 
 I've created wordlists using data from [passwordrandom.com](http://www.passwordrandom.com/most-popular-passwords)
 
-* [100 most common passwords](https://gist.github.com/TylerRockwell/1f24a4b237627811b449db9f90804e840)
+* [100 most common passwords](https://gist.github.com/TylerRockwell/1f24a4b237627811b449db9f90804e84)
 * [1,000 most common passwords](https://gist.github.com/TylerRockwell/e66bb76374aba34ed430dab2617e9d4a)
 * [10,000 most common passwords](https://gist.github.com/TylerRockwell/ab97b16045c3993edf528f8012b8fffa)
 
