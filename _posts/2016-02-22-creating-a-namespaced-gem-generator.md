@@ -70,7 +70,11 @@ text, and an optional regex with a `before` or `after` key. So it might look som
 like this:
 
 ``` ruby
-insert_into_file(destination, "\nTacoTuesday.initialize", after: "RSpec.configure do |config|")
+insert_into_file(
+  destination,
+  "\nTacoTuesday.initialize",
+  after: "RSpec.configure do |config|"
+)
 ```
 
 You can use regular Ruby code inside these methods, and I'm sure if you're this far,

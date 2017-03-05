@@ -10,7 +10,7 @@ security vulnerabilities. Those are, static code analysis and dependency checkin
 
 Static code analysis scans all of your code and looks for known vulnerable patterns. It won't
 find complex flaws in business logic, but it'll raise red flags if a developer ever adds something
-like <code>Widget.where("name = #{name}")</code> into the code. (For those who may not know, this opens a
+like `Widget.where("name = #{name}")` into the code. (For those who may not know, this opens a
 SQL injection vulnerability.)
 
 Dependency checking looks at what 3rd party libraries are being used and their versions, and checks
@@ -21,7 +21,7 @@ There are 2 great tools that can help us out in Ruby: [Brakeman](http://brakeman
 and [Bundler-Audit](https://github.com/rubysec/bundler-audit).
 
 Brakeman is an excellent open-source static code analysis tool with a number of options for tweaking
-its reports. Bundler-Audit will scan the Gemfile.lock and compare against the Ruby advisory db.
+its reports. Bundler-Audit will scan the `Gemfile.lock` and compare against the Ruby advisory db.
 These tools are great on their own, and each comes with an executable that can be run on the
 command line. However, manually running them every time you write new code or change gems adds
 extra work and is very easy to forget. Don't worry, there's a great, simple way to add them to our testing
